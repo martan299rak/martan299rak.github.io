@@ -1,0 +1,144 @@
+body
+{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+
+    background: linear-gradient(270deg, #c1c1c1, #efefef);
+    background-size: 400% 400%;
+
+    animation: AnimationName 39s ease infinite;
+}
+
+div
+{
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(13.5px);
+    -webkit-backdrop-filter: blur(13.5px);
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+header h4
+{
+    color: #797979;
+}
+
+:focus {
+    outline: none !important;
+}
+
+a 
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a:hover
+{
+    color: rgb(154, 154, 154);
+}
+
+#navbar
+{
+    width: 40%;
+    min-width: 300px;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    margin: auto;
+    margin-bottom: 5vw;
+    background-color: #d3d3d3;
+}
+
+#navbar ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar li 
+{
+    display: inline;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.article-div
+{
+    min-width: 320px;
+    inline-size: 60%;
+    overflow-wrap: break-word;
+    background-color: #dcdcdc;
+    padding-top: 0.2vw;
+    padding-bottom: 1vw;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    margin: auto;
+    margin-bottom: 3vw;
+
+    transition: padding 1s, background-color 1s, box-shadow 1s;
+}
+
+.article-div:hover
+{
+    padding-top: 0.6vw;
+    padding-bottom: 1.4vw;
+    background-color: #eaeaea;
+    box-shadow: 0px 0px 76px 4px #9c9c9c;
+}
+
+.article-div p
+{
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+#footer-div 
+{
+    width:50%;
+    min-width: 320px;
+    margin: auto;
+    opacity: 20%;
+}
+
+#footer-div ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#footer-div li 
+{
+    display: inline;
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
+
+.gallery-description
+{
+    width: 90%;
+    padding: 1vw;
+    margin: auto;
+    margin-bottom: 1vw;
+}
+
+.icon 
+{
+    width: 20%;
+    margin-bottom: 2vw;
+    opacity: 70%;
+    transition: opacity 0.5s;
+}
+
+.icon:hover
+{
+    opacity: 50%;
+}
